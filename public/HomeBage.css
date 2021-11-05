@@ -1,0 +1,127 @@
+body {
+background-color: #212529;
+color:  white;
+height: 100%;
+}
+
+.navbar-brand img {
+border-radius: 20px;
+}
+
+.head {
+padding-top: 260px;
+color:  #0063df;
+width: 45%;
+float: left;
+}
+
+.custom-1 img {
+height: 380px;
+width: 510px;
+float: right;
+}
+
+.custom-1 h3 {
+padding-top: 60px;
+}
+
+.custom-1 p {
+color: rgb(255, 255, 255, .55);
+width: 40%;
+}
+
+.custom-2 img {
+float: left;
+height: 380px;
+width: 510px;
+}
+
+.custom-2 h3 {
+padding-top: 60px;
+float: right;
+width: 40%;
+}
+
+.custom-2 p {
+float: right;
+width: 40%;
+color: rgb(255, 255, 255, .55);
+}
+/* width */
+::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #212529;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #212529;
+overflow : hidden;
+}
+
+.MainImg {
+position : relative;
+top : 150px;
+left : 350px;
+width : 500px;
+}
+
+@media screen and (max-width: 967) {
+.custom-1 img {
+float: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 400px;
+height: auto;
+}
+
+.pt-10 {
+padding-top: 5rem!important;
+}
+
+.pt-16 {
+padding-top: 2rem!important;
+}
+
+.custom-1 p {
+text-align: center;
+width: 100%;
+}
+
+.custom-1 h3 {
+text-align: center;
+}
+
+.custom-2 p {
+text-align: center;
+float: none;
+width: 100%;
+}
+
+.custom-2 h3 {
+float: none;
+text-align: center;
+width: 100%;
+}
+
+.custom-2 img {
+float: none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+max-width: 400px;
+height: auto;
+}
+}
